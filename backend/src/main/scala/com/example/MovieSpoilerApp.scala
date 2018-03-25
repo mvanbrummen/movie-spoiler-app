@@ -30,7 +30,7 @@ object MovieSpoilerApp {
     )
 
     def receive = {
-      case GetSpoiler => sender ! spoilers
+      case GetSpoiler => sender ! Random.shuffle(spoilers).head
       case _ => log.info("Unknown message")
     }
   }
