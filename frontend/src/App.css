@@ -1,0 +1,46 @@
+body {
+  background: #22c1c3;  
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+  background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+}
+
+.app-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.button {
+  font-size: 1.5rem;
+  width: 250px;
+  padding: 20px;
+  background-color: transparent;
+  border: solid white 2px;
+  color: white;
+  border-radius: 8px;
+}
+
+.title {
+  color: white;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+.spoiler-text {
+  font-size: 3rem;
+  color: #f5f5f5;
+}
+
+.app-body {
+  text-align: center;
+}
+
+.app-title {
+  font-size: 1.5em;
+}
+
+.app-intro {
+  font-size: large;
+}
+
